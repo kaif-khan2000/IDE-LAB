@@ -19,6 +19,7 @@ int pop(int stack_in){
 
 int main() {
     int command, value,x,y;
+    printf("P Kaif Ali Khan 221810305043\n\n");
     while(1) {
         printf("\n[1] Insert into QUEUE\n[2] Delete from QUEUE\n\nEnter your command: ");
         scanf(" %d",&command);
