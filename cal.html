@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <style>
+            button{
+                border: 2px;
+                border-color: grey;
+                color: white;
+                background-color: black;
+                width: 50px;
+                height: 50px;
+                border-radius: 10px;
+            }
+            input{
+                width: 220px;
+                height: 35px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="border">
+
+            <table>
+                <tr>
+                    <input type="text" name="code" id="txt" value="0">
+                </tr>
+                <tr>
+                    <td><button onclick="number(1)">1</button></td>
+                    <td><button onclick="number(2)">2</button></td>
+                    <td><button onclick="number(3)">3</button></td>
+                    <td><button onclick="operator('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="number(4)">4</button></td>
+                    <td><button onclick="number(5)">5</button></td>
+                    <td><button onclick="number(6)">6</button></td>
+                    <td><button onclick="operator('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="number(7)">7</button></td>
+                    <td><button onclick="number(8)">8</button></td>
+                    <td><button onclick="number(9)">9</button></td>
+                    <td><button onclick="operator('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="operator('%')">%</button></td>
+                    <td><button onclick="number(0)">0</button></td>
+                    <td><button onclick="operator('/')">/</button></td>
+                    <td><button onclick="operator('=')">=</button></td>
+                </tr>
+            </table>
+        </div>
+
+        <script>
+            var txt = document.getElementById("txt")
+            var isNumPrev = false;
+            var isOpGiven = false;
+            var shouldReset = false;
+            var result;
+            var oper = "";
+            var a=0,b=0;
+            function calculate(){
+                txt.value = '= ';
+                if (oper == '+'){
+                    console.log(""+a+","+b)
+                    txt.value += a+b;
+                }
+                else if (oper == '-'){
+                    txt.value += a-b;
+                }
+                else if (oper == '*'){
+                    txt.value += a*b;
+                }
+                else if (oper == '/'){
+                    txt.value += a/b;
+                }
+                else if (oper == '%'){
+                    txt.value += a%b;
+                }
+                else {
+                    console.log('error'+oper)
+                }
+                shouldReset = true;
+            }
+            function number(num) {
+                if (shouldReset || txt.value == 0 || txt.value == '+' || txt.value == '-' || txt.value == '*' || txt.value == '/' || txt.value == '%'){
+                    txt.value = num
+                    shouldReset = false
+                }
+                else {
+                    txt.value += num
+                }
+                isNumPrev = true
+            }
+            function operator(op){
+                if (op == '='){
+                    console.log('calling cal')
+                    b = parseInt(txt.value)
+                    calculate();
+                    isOpGiven = false
+                    oper = "";
+                }
+                else if (isNumPrev){
+                    a = parseInt(txt.value)
+                    oper = op;
+                    txt.value = op;
+                    isOpGiven = true;
+                }
+                
+                isNumPrev = false
+            }
+
+            
+        </script>
+    </body>
+</html>
