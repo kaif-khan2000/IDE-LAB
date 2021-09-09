@@ -1,0 +1,9 @@
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\bin\Release\PrimeOrNotGUI.exe.config
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\bin\Release\PrimeOrNotGUI.exe
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\bin\Release\PrimeOrNotGUI.pdb
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\obj\Release\PrimeOrNotGUI.Form1.resources
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\obj\Release\PrimeOrNotGUI.Properties.Resources.resources
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\obj\Release\PrimeOrNotGUI.csproj.GenerateResource.cache
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\obj\Release\PrimeOrNotGUI.csproj.CoreCompileInputs.cache
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\obj\Release\PrimeOrNotGUI.exe
+D:\IDELAB\PrimeOrNotGUI\PrimeOrNotGUI\obj\Release\PrimeOrNotGUI.pdb

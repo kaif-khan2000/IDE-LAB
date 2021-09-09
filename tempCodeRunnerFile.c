@@ -28,7 +28,7 @@ void lpsGenerate(){
         }
         
     }
-    //printlps();
+    printlps();
 }
 
 void read_text() {
@@ -75,7 +75,9 @@ void KMP(){
             j++;
             prev = -1;
         }
+        printf("i = %d, j = %d, match= %d, pattern=%c, text=%c\n",i,j,match,pattern[i],text[j]);
     }
+    printf("i = %d, j = %d\n",i,j);
     printf("index is %d\n",/*j-pat_len+2*/prev);
 }
 

@@ -22,7 +22,7 @@ namespace PrimeOrNotGUI
 
 		}
 		public Boolean isPrime(int num) {
-			for (int i = 2; i <= num / 2; i++) {
+			for (int i = 2; i <= Math.Sqrt(num); i++) {
 				if (num % i == 0) {
 					return false;
 				}
@@ -39,6 +39,11 @@ namespace PrimeOrNotGUI
 			else {
 				textBox2.Text = "Not Prime";
 			}
+		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
