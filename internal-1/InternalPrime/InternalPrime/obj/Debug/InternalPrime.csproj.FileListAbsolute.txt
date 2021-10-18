@@ -1,0 +1,10 @@
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\bin\Debug\InternalPrime.exe.config
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\bin\Debug\InternalPrime.exe
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\bin\Debug\InternalPrime.pdb
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\obj\Debug\InternalPrime.csproj.AssemblyReference.cache
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\obj\Debug\InternalPrime.Form1.resources
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\obj\Debug\InternalPrime.Properties.Resources.resources
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\obj\Debug\InternalPrime.csproj.GenerateResource.cache
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\obj\Debug\InternalPrime.csproj.CoreCompileInputs.cache
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\obj\Debug\InternalPrime.exe
+D:\IDELAB\internal-1\InternalPrime\InternalPrime\obj\Debug\InternalPrime.pdb

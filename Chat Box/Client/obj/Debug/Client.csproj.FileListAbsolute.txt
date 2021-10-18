@@ -1,0 +1,12 @@
+D:\IDELAB\Chat Box\Client\bin\Debug\Client.exe.config
+D:\IDELAB\Chat Box\Client\bin\Debug\Client.exe
+D:\IDELAB\Chat Box\Client\bin\Debug\Client.pdb
+D:\IDELAB\Chat Box\Client\obj\Debug\Client.Client.resources
+D:\IDELAB\Chat Box\Client\obj\Debug\Client.Properties.Resources.resources
+D:\IDELAB\Chat Box\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\IDELAB\Chat Box\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\IDELAB\Chat Box\Client\obj\Debug\Client.exe
+D:\IDELAB\Chat Box\Client\obj\Debug\Client.pdb
+D:\IDELAB\Chat Box\Client\bin\Debug\SimpleTcp.dll
+D:\IDELAB\Chat Box\Client\bin\Debug\SimpleTcp.xml
+D:\IDELAB\Chat Box\Client\obj\Debug\Client.csproj.CopyComplete
