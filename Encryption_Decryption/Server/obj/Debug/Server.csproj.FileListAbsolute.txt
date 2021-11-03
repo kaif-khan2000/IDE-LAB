@@ -1,0 +1,13 @@
+D:\IDELAB\Encryption_Decryption\Server\bin\Debug\Server.exe.config
+D:\IDELAB\Encryption_Decryption\Server\bin\Debug\Server.exe
+D:\IDELAB\Encryption_Decryption\Server\bin\Debug\Server.pdb
+D:\IDELAB\Encryption_Decryption\Server\obj\Debug\Server.Form1.resources
+D:\IDELAB\Encryption_Decryption\Server\obj\Debug\Server.Properties.Resources.resources
+D:\IDELAB\Encryption_Decryption\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\IDELAB\Encryption_Decryption\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\IDELAB\Encryption_Decryption\Server\obj\Debug\Server.exe
+D:\IDELAB\Encryption_Decryption\Server\obj\Debug\Server.pdb
+D:\IDELAB\Encryption_Decryption\Server\bin\Debug\SimpleTcp.dll
+D:\IDELAB\Encryption_Decryption\Server\bin\Debug\SimpleTcp.xml
+D:\IDELAB\Encryption_Decryption\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\IDELAB\Encryption_Decryption\Server\obj\Debug\Server.csproj.CopyComplete
